@@ -6,9 +6,9 @@ Steps:
 
 ## Steps
 
-1. Create env: `py -3 -m venv venv`
+1. Create env: `py -3 -m venv .venv`
 
-1. Activate env: `venv\Scripts\activate`
+1. Activate env: `.venv\Scripts\activate`
 
 1. Install Flask: `pip install Flask`
 

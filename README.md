@@ -6,12 +6,12 @@ Steps:
 
 ## Steps
 
-1. `py -3 -m venv venv`
+1. Create env: `py -3 -m venv venv`
 
-1. `venv\Scripts\activate`
+1. Activate env: `venv\Scripts\activate`
 
-1. `pip install Flask`
+1. Install Flask: `pip install Flask`
 
-1. `pip install flask-cors`
+1. Install cors help: `pip install flask-cors`
 
-1. `flask --app index run`
+1. Run flask: `flask --app index run`

@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+<button onclick="request(undefined, '/add')">add</button>
+<button onclick="request(undefined, '/clear')">clear</button>
+<button onclick="request()">count</button>
     <script>
         async function req(url="http://127.0.0.1", u="", port=":5000"){
             let response = await fetch(url+port+'/'+u)
@@ -14,9 +17,11 @@
             return commits
         }
 
-        req().then((val) => {
-            console.log(val)
-        })
+        function request(url, u, port){
+            req(url, u, port).then((val) => {
+                alert(val)
+            })
+        }
     </script>
 </body>
 </html>
